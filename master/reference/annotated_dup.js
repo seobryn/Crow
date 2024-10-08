@@ -1,6 +1,6 @@
 var annotated_dup =
 [
-    [ "crow", null, [
+    [ "crow", "namespacecrow.html", [
       [ "detail", null, [
         [ "routing_handler_call_helper", null, [
           [ "call_pair", "structcrow_1_1detail_1_1routing__handler__call__helper_1_1call__pair.html", "structcrow_1_1detail_1_1routing__handler__call__helper_1_1call__pair" ],
@@ -52,9 +52,13 @@ var annotated_dup =
       [ "multipart", "namespacecrow_1_1multipart.html", [
         [ "header", "structcrow_1_1multipart_1_1header.html", "structcrow_1_1multipart_1_1header" ],
         [ "part", "structcrow_1_1multipart_1_1part.html", "structcrow_1_1multipart_1_1part" ],
-        [ "message", "structcrow_1_1multipart_1_1message.html", "structcrow_1_1multipart_1_1message" ]
+        [ "message", "structcrow_1_1multipart_1_1message.html", "structcrow_1_1multipart_1_1message" ],
+        [ "header_view", "structcrow_1_1multipart_1_1header__view.html", "structcrow_1_1multipart_1_1header__view" ],
+        [ "padded", "structcrow_1_1multipart_1_1padded.html", "structcrow_1_1multipart_1_1padded" ],
+        [ "part_view", "structcrow_1_1multipart_1_1part__view.html", "structcrow_1_1multipart_1_1part__view" ],
+        [ "message_view", "structcrow_1_1multipart_1_1message__view.html", "structcrow_1_1multipart_1_1message__view" ]
       ] ],
-      [ "mustache", null, [
+      [ "mustache", "namespacecrow_1_1mustache.html", [
         [ "invalid_template_exception", "classcrow_1_1mustache_1_1invalid__template__exception.html", "classcrow_1_1mustache_1_1invalid__template__exception" ],
         [ "rendered_template", "structcrow_1_1mustache_1_1rendered__template.html", "structcrow_1_1mustache_1_1rendered__template" ],
         [ "Action", "structcrow_1_1mustache_1_1_action.html", "structcrow_1_1mustache_1_1_action" ],
@@ -65,7 +69,7 @@ var annotated_dup =
         [ "ExpirationTracker", "structcrow_1_1session_1_1_expiration_tracker.html", "structcrow_1_1session_1_1_expiration_tracker" ],
         [ "CachedSession", "structcrow_1_1session_1_1_cached_session.html", "structcrow_1_1session_1_1_cached_session" ]
       ] ],
-      [ "websocket", null, [
+      [ "websocket", "namespacecrow_1_1websocket.html", [
         [ "connection", "structcrow_1_1websocket_1_1connection.html", "structcrow_1_1websocket_1_1connection" ],
         [ "Connection", "classcrow_1_1websocket_1_1_connection.html", "classcrow_1_1websocket_1_1_connection" ]
       ] ],
@@ -105,7 +109,7 @@ var annotated_dup =
       [ "SocketAdaptor", "structcrow_1_1_socket_adaptor.html", "structcrow_1_1_socket_adaptor" ],
       [ "SSLAdaptor", "structcrow_1_1_s_s_l_adaptor.html", "structcrow_1_1_s_s_l_adaptor" ]
     ] ],
-    [ "sha1", null, [
+    [ "sha1", "namespacesha1.html", [
       [ "SHA1", "classsha1_1_1_s_h_a1.html", "classsha1_1_1_s_h_a1" ]
     ] ]
 ];

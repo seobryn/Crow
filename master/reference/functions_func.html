@@ -34,7 +34,7 @@
 						<td id="projectlogo"><img alt="Logo" src="logo55.png"/></td>
 						<td id="projectalign" style="padding-left: 0.5em;">
 							<div id="projectname">Crow
-								&#160;<span id="projectnumber">1.0</span>
+								&#160;<span id="projectnumber">1.1</span>
 							</div>
 							<div id="projectbrief">A C++ microframework for the web</div>
 						</td>
@@ -101,8 +101,14 @@ $(document).ready(function(){initNavTree('functions_func.html',''); initResizabl
 <li>add()
 : <a class="el" href="structcrow_1_1session_1_1_expiration_tracker.html#a82f229b28c67ea4adfaae80db9628824">crow::session::ExpirationTracker</a>
 </li>
+<li>add_blueprint()
+: <a class="el" href="classcrow_1_1_crow.html#af0d01b97da7d4d20844a80fd31b74f46">crow::Crow&lt; Middlewares &gt;</a>
+</li>
 <li>add_header()
 : <a class="el" href="structcrow_1_1response.html#a16d1a8bcec6460ba97f90b80881693b8">crow::response</a>
+</li>
+<li>add_static_dir()
+: <a class="el" href="classcrow_1_1_crow.html#a3cbe89120e47d2bd3d05376b9129adfa">crow::Crow&lt; Middlewares &gt;</a>
 </li>
 <li>allow_credentials()
 : <a class="el" href="structcrow_1_1_c_o_r_s_rules.html#abca9739b2819cb386123997aab7b0dec">crow::CORSRules</a>
@@ -128,17 +134,20 @@ $(document).ready(function(){initNavTree('functions_func.html',''); initResizabl
 
 
 <h3><a id="index_c"></a>- c -</h3><ul>
+<li>cancel()
+: <a class="el" href="classcrow_1_1detail_1_1task__timer.html#a05b9d2725c0992aace3c50c942d56e92">crow::detail::task_timer</a>
+</li>
 <li>catchall_route()
 : <a class="el" href="classcrow_1_1_crow.html#ab1beefb0c6fc3c534160ba3bbc615069">crow::Crow&lt; Middlewares &gt;</a>
 </li>
 <li>check_destroy()
-: <a class="el" href="classcrow_1_1websocket_1_1_connection.html#a8030e7ca3e9ee5d07ccf7f8cb43fa317">crow::websocket::Connection&lt; Adaptor, Handler &gt;</a>
+: <a class="el" href="classcrow_1_1websocket_1_1_connection.html#ad13e9b7b8a2a551056b34495cb334124">crow::websocket::Connection&lt; Adaptor, Handler &gt;</a>
 </li>
 <li>clear()
 : <a class="el" href="classcrow_1_1json_1_1wvalue.html#af46596998d8e639a23b401e951297b63">crow::json::wvalue</a>
 </li>
 <li>close()
-: <a class="el" href="classcrow_1_1websocket_1_1_connection.html#a663d3f3917b8cc7f9b54e6c7dfc8d604">crow::websocket::Connection&lt; Adaptor, Handler &gt;</a>
+: <a class="el" href="classcrow_1_1websocket_1_1_connection.html#a4fab99ae7f8e269480d5842cff1daf88">crow::websocket::Connection&lt; Adaptor, Handler &gt;</a>
 </li>
 <li>complete_request()
 : <a class="el" href="classcrow_1_1_connection.html#aa40019a3731cc55174401e3b31602524">crow::Connection&lt; Adaptor, Handler, Middlewares &gt;</a>
@@ -147,7 +156,7 @@ $(document).ready(function(){initNavTree('functions_func.html',''); initResizabl
 : <a class="el" href="classcrow_1_1_crow.html#a41686e6025705c1ab379b5ec71bbf983">crow::Crow&lt; Middlewares &gt;</a>
 </li>
 <li>Connection()
-: <a class="el" href="classcrow_1_1websocket_1_1_connection.html#ae13084d8ea772f54bf3397a9fab107d8">crow::websocket::Connection&lt; Adaptor, Handler &gt;</a>
+: <a class="el" href="classcrow_1_1websocket_1_1_connection.html#a12834b0aaac5b236a8784a1b131d1fa9">crow::websocket::Connection&lt; Adaptor, Handler &gt;</a>
 </li>
 <li>Crow()
 : <a class="el" href="classcrow_1_1_crow.html#abb69a7bf5d4a791a398c838d37086d94">crow::Crow&lt; Middlewares &gt;</a>
@@ -174,6 +183,7 @@ $(document).ready(function(){initNavTree('functions_func.html',''); initResizabl
 </li>
 <li>dump()
 : <a class="el" href="structcrow_1_1multipart_1_1message.html#adac4c7af1a5d0eb66c2accbaf80e0196">crow::multipart::message</a>
+, <a class="el" href="structcrow_1_1multipart_1_1message__view.html#ad12d2270b477b231c9ff53d40bad9d60">crow::multipart::message_view</a>
 </li>
 </ul>
 
@@ -187,6 +197,9 @@ $(document).ready(function(){initNavTree('functions_func.html',''); initResizabl
 </li>
 <li>estimate_length()
 : <a class="el" href="classcrow_1_1json_1_1wvalue.html#a5af23d208ed3d066a0fb5339350978c6">crow::json::wvalue</a>
+</li>
+<li>exception_handler()
+: <a class="el" href="classcrow_1_1_crow.html#a872d39321015ac4f48ec8a6659dda99b">crow::Crow&lt; Middlewares &gt;</a>
 </li>
 </ul>
 
@@ -206,7 +219,7 @@ $(document).ready(function(){initNavTree('functions_func.html',''); initResizabl
 : <a class="el" href="structcrow_1_1request.html#af2679155b496b7d8d80a82c0d9a175b5">crow::request</a>
 </li>
 <li>get_default_timeout()
-: <a class="el" href="classcrow_1_1detail_1_1task__timer.html#ae11e1259251e562ea3be457457b3b287">crow::detail::task_timer</a>
+: <a class="el" href="classcrow_1_1detail_1_1task__timer.html#a2ee666f7730756b42c8e904e2c968350">crow::detail::task_timer</a>
 </li>
 <li>get_dict()
 : <a class="el" href="classcrow_1_1query__string.html#af56add12ca6a7f0222956e353d1d40bb">crow::query_string</a>
@@ -216,6 +229,12 @@ $(document).ready(function(){initNavTree('functions_func.html',''); initResizabl
 </li>
 <li>get_list()
 : <a class="el" href="classcrow_1_1query__string.html#a657e5fe435375cd31229944ed2ad5608">crow::query_string</a>
+</li>
+<li>get_subprotocol()
+: <a class="el" href="classcrow_1_1websocket_1_1_connection.html#a5e2427132ac75808a9e38c6ccaeae94a">crow::websocket::Connection&lt; Adaptor, Handler &gt;</a>
+</li>
+<li>get_tick_length()
+: <a class="el" href="classcrow_1_1detail_1_1task__timer.html#a65f20608b2bbad3694e98c13d3fd3952">crow::detail::task_timer</a>
 </li>
 <li>global()
 : <a class="el" href="structcrow_1_1_c_o_r_s_handler.html#a969edd2b3d6768d067147839a430a976">crow::CORSHandler</a>
@@ -276,7 +295,7 @@ $(document).ready(function(){initNavTree('functions_func.html',''); initResizabl
 
 <h3><a id="index_l"></a>- l -</h3><ul>
 <li>lo()
-: <a class="el" href="classcrow_1_1json_1_1rvalue.html#a2b938dacf1809bb38add4ac8bbeb46ed">crow::json::rvalue</a>
+: <a class="el" href="classcrow_1_1json_1_1rvalue.html#a79f343a3019b931d5f9e0224ebc93978">crow::json::rvalue</a>
 </li>
 <li>loglevel()
 : <a class="el" href="classcrow_1_1_crow.html#a7b6c225d3bba772eeadad89ebde68d21">crow::Crow&lt; Middlewares &gt;</a>
@@ -292,7 +311,10 @@ $(document).ready(function(){initNavTree('functions_func.html',''); initResizabl
 : <a class="el" href="classcrow_1_1_web_socket_rule.html#ad4d8b25025e767fbe9af7f7c4263c2cb">crow::WebSocketRule&lt; App &gt;</a>
 </li>
 <li>message()
-: <a class="el" href="structcrow_1_1multipart_1_1message.html#a0007fa0cadffae1a8d16fac169d1527b">crow::multipart::message</a>
+: <a class="el" href="structcrow_1_1multipart_1_1message.html#a04ffb20817903d00334268d31f635621">crow::multipart::message</a>
+</li>
+<li>message_view()
+: <a class="el" href="structcrow_1_1multipart_1_1message__view.html#ab2985a84afde169fb89fc35e430106db">crow::multipart::message_view</a>
 </li>
 <li>methods()
 : <a class="el" href="structcrow_1_1_c_o_r_s_rules.html#a345cef92c2f28444e505646d429717cb">crow::CORSRules</a>
@@ -325,11 +347,15 @@ $(document).ready(function(){initNavTree('functions_func.html',''); initResizabl
 </li>
 <li>operator double()
 : <a class="el" href="structcrow_1_1multipart_1_1header.html#a0b87278e0ebe8d323f46c9ed64fc385a">crow::multipart::header</a>
+, <a class="el" href="structcrow_1_1multipart_1_1header__view.html#a06c7abf8526ec9826b3962969b67cc6d">crow::multipart::header_view</a>
 , <a class="el" href="structcrow_1_1multipart_1_1part.html#ac9c4ebeeabe158725bc67cf14c9f957e">crow::multipart::part</a>
+, <a class="el" href="structcrow_1_1multipart_1_1part__view.html#a55cbb62dd09e491594475b10b761a99c">crow::multipart::part_view</a>
 </li>
 <li>operator int()
 : <a class="el" href="structcrow_1_1multipart_1_1header.html#adff380493f414108eb67420d06d426ee">crow::multipart::header</a>
+, <a class="el" href="structcrow_1_1multipart_1_1header__view.html#a3031c16055b06d94567802ec202c6622">crow::multipart::header_view</a>
 , <a class="el" href="structcrow_1_1multipart_1_1part.html#a06851f0fd2d36b71139e8488fb646b7e">crow::multipart::part</a>
+, <a class="el" href="structcrow_1_1multipart_1_1part__view.html#a2307998bbce5709e7d1d7cee49b7edc0">crow::multipart::part_view</a>
 </li>
 <li>operator std::string()
 : <a class="el" href="classcrow_1_1json_1_1rvalue.html#a2d5dd8607112a132fe070dee432987ae">crow::json::rvalue</a>
@@ -387,10 +413,10 @@ $(document).ready(function(){initNavTree('functions_func.html',''); initResizabl
 : <a class="el" href="structcrow_1_1request.html#a838c9a8c9a5eb2283d57e66f3630b5a6">crow::request</a>
 </li>
 <li>route()
-: <a class="el" href="classcrow_1_1_crow.html#af221cb25926e5dabc2da21a7a1c9713c">crow::Crow&lt; Middlewares &gt;</a>
+: <a class="el" href="classcrow_1_1_crow.html#a5e1e54d49ff3015fd08f545b574ab44f">crow::Crow&lt; Middlewares &gt;</a>
 </li>
 <li>route_dynamic()
-: <a class="el" href="classcrow_1_1_crow.html#a0f408e47d261ad55ccfd8eb5f351c22e">crow::Crow&lt; Middlewares &gt;</a>
+: <a class="el" href="classcrow_1_1_crow.html#a0822a573ed653c3218f06c819a773ec2">crow::Crow&lt; Middlewares &gt;</a>
 </li>
 <li>run()
 : <a class="el" href="classcrow_1_1_crow.html#a193d8b03f717234a841cd92f72c6b4b5">crow::Crow&lt; Middlewares &gt;</a>
@@ -424,7 +450,7 @@ $(document).ready(function(){initNavTree('functions_func.html',''); initResizabl
 : <a class="el" href="classcrow_1_1_crow.html#ae0e400a1757bd68f716b82753a5a1a73">crow::Crow&lt; Middlewares &gt;</a>
 </li>
 <li>set_default_timeout()
-: <a class="el" href="classcrow_1_1detail_1_1task__timer.html#aa67cab7afc1646a4127b0c6c97e5f5ea">crow::detail::task_timer</a>
+: <a class="el" href="classcrow_1_1detail_1_1task__timer.html#a7a1851ddf3d42b65c674a8984557cbb0">crow::detail::task_timer</a>
 </li>
 <li>set_header()
 : <a class="el" href="structcrow_1_1response.html#ab2b9a9b9795fa6330bd47b66a716cb0b">crow::response</a>
@@ -510,7 +536,7 @@ $(document).ready(function(){initNavTree('functions_func.html',''); initResizabl
 		<div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
 			<ul>
 				<li class="footer">
-					Generated on Fri Jan 19 2024 for Crow by <a href="http://www.doxygen.org/index.html">
+					Generated on Tue Oct 8 2024 for Crow by <a href="http://www.doxygen.org/index.html">
 					<img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.9.1.
 					Dark theme by <a href="http://majerle.eu" target="_new">Tilen Majerle</a>. Edited by <a href="https://github.com/The-EDev" target="_new">Farook Al-Sammarraie</a>. All rights reserved.
 				</li>
