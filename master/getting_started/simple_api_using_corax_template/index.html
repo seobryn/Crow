@@ -6,17 +6,17 @@
       <meta charset="utf-8">
       <meta name="viewport" content="width=device-width,initial-scale=1">
       
-        <meta name="description" content="Using Systemd allows you to run any executable or script when the system starts. This can be useful when you don&#x27;t want to re-run your Crow application every single time you restart your server.">
+        <meta name="description" content="This page shows how you can get started with a simple hello world application using corax template.">
       
       
       
-        <link rel="canonical" href="https://crowcpp.org/master/guides/syste/">
+        <link rel="canonical" href="https://crowcpp.org/master/getting_started/simple_api_using_corax_template/">
       
       
-        <link rel="prev" href="../proxies/">
+        <link rel="prev" href="../a_simple_webpage/">
       
       
-        <link rel="next" href="../../reference/">
+        <link rel="next" href="../../guides/app/">
       
       
       <link rel="icon" href="../../assets/favicon.svg">
@@ -24,7 +24,7 @@
     
     
       
-        <title>Systemd run on startup - Crow</title>
+        <title>Simple Api Using Corax Template - Crow</title>
       
     
     
@@ -72,7 +72,7 @@
 </script>
 
 <noscript>
-<img referrerpolicy="no-referrer-when-downgrade" src="https://thee.dev/matomo/matomo.php?idsite=1&amp;rec=1&amp;action_name=Systemd run on startup" style="border:0" alt="" />
+<img referrerpolicy="no-referrer-when-downgrade" src="https://thee.dev/matomo/matomo.php?idsite=1&amp;rec=1&amp;action_name=Simple Api Using Corax Template" style="border:0" alt="" />
 </noscript>
 <!-- End Matomo Code -->
   
@@ -109,7 +109,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#writing-the-service-unit-file" class="md-skip">
+        <a href="#1-get-the-template" class="md-skip">
           Skip to content
         </a>
       
@@ -178,7 +178,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              Systemd run on startup
+              Simple Api Using Corax Template
             
           </span>
         </div>
@@ -302,17 +302,21 @@
         
   
   
+    
+  
   
     
     
       
   
   
+    
+  
   
     
     
-      <li class="md-tabs__item">
-        <a href="../../getting_started/setup/linux/" class="md-tabs__link">
+      <li class="md-tabs__item md-tabs__item--active">
+        <a href="../setup/linux/" class="md-tabs__link">
           
   
   Getting Started
@@ -329,21 +333,17 @@
         
   
   
-    
-  
   
     
     
       
   
   
-    
-  
   
     
     
-      <li class="md-tabs__item md-tabs__item--active">
-        <a href="../app/" class="md-tabs__link">
+      <li class="md-tabs__item">
+        <a href="../../guides/app/" class="md-tabs__link">
           
   
   Guides
@@ -443,23 +443,28 @@
       
   
   
+    
   
   
+  
     
     
     
-      
-      
-    
-    
-    <li class="md-nav__item md-nav__item--nested">
       
         
         
-        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2" >
+      
+      
+    
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--section md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2" checked>
         
           
-          <label class="md-nav__link" for="__nav_2" id="__nav_2_label" tabindex="0">
+          <label class="md-nav__link" for="__nav_2" id="__nav_2_label" tabindex="">
             
   
   <span class="md-ellipsis">
@@ -470,7 +475,7 @@
             <span class="md-nav__icon md-icon"></span>
           </label>
         
-        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_2_label" aria-expanded="false">
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_2_label" aria-expanded="true">
           <label class="md-nav__title" for="__nav_2">
             <span class="md-nav__icon md-icon"></span>
             Getting Started
@@ -522,7 +527,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../getting_started/setup/linux/" class="md-nav__link">
+      <a href="../setup/linux/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -543,7 +548,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../getting_started/setup/macos/" class="md-nav__link">
+      <a href="../setup/macos/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -564,7 +569,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../getting_started/setup/windows/" class="md-nav__link">
+      <a href="../setup/windows/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -593,7 +598,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../getting_started/your_first_application/" class="md-nav__link">
+      <a href="../your_first_application/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -614,7 +619,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../getting_started/a_simple_webpage/" class="md-nav__link">
+      <a href="../a_simple_webpage/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -632,10 +637,28 @@
                 
   
   
+    
   
   
-    <li class="md-nav__item">
-      <a href="../../getting_started/simple_api_using_corax_template/" class="md-nav__link">
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  <span class="md-ellipsis">
+    Simple Api Using Corax Template
+  </span>
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
         
   
   <span class="md-ellipsis">
@@ -644,6 +667,60 @@
   
 
       </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#1-get-the-template" class="md-nav__link">
+    <span class="md-ellipsis">
+      1. Get the template
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#2-unzip-the-template" class="md-nav__link">
+    <span class="md-ellipsis">
+      2. Unzip the template
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#3-compile-the-code" class="md-nav__link">
+    <span class="md-ellipsis">
+      3. Compile the code
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#4-change-the-code" class="md-nav__link">
+    <span class="md-ellipsis">
+      4. Change the code
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
     </li>
   
 
@@ -660,28 +737,23 @@
       
   
   
-    
   
   
-  
     
     
     
       
-        
-        
-      
       
     
     
-    <li class="md-nav__item md-nav__item--active md-nav__item--section md-nav__item--nested">
+    <li class="md-nav__item md-nav__item--nested">
       
         
         
-        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3" checked>
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3" >
         
           
-          <label class="md-nav__link" for="__nav_3" id="__nav_3_label" tabindex="">
+          <label class="md-nav__link" for="__nav_3" id="__nav_3_label" tabindex="0">
             
   
   <span class="md-ellipsis">
@@ -692,7 +764,7 @@
             <span class="md-nav__icon md-icon"></span>
           </label>
         
-        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_3_label" aria-expanded="true">
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_3_label" aria-expanded="false">
           <label class="md-nav__title" for="__nav_3">
             <span class="md-nav__icon md-icon"></span>
             Guides
@@ -744,7 +816,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../app/" class="md-nav__link">
+      <a href="../../guides/app/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -765,7 +837,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../routes/" class="md-nav__link">
+      <a href="../../guides/routes/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -786,7 +858,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../logging/" class="md-nav__link">
+      <a href="../../guides/logging/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -807,7 +879,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../json/" class="md-nav__link">
+      <a href="../../guides/json/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -828,7 +900,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../templating/" class="md-nav__link">
+      <a href="../../guides/templating/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -849,7 +921,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../multipart/" class="md-nav__link">
+      <a href="../../guides/multipart/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -870,7 +942,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../query-string/" class="md-nav__link">
+      <a href="../../guides/query-string/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -891,7 +963,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../middleware/" class="md-nav__link">
+      <a href="../../guides/middleware/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -912,7 +984,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../ssl/" class="md-nav__link">
+      <a href="../../guides/ssl/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -933,7 +1005,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../static/" class="md-nav__link">
+      <a href="../../guides/static/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -954,7 +1026,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../blueprints/" class="md-nav__link">
+      <a href="../../guides/blueprints/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -975,7 +1047,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../compression/" class="md-nav__link">
+      <a href="../../guides/compression/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -996,7 +1068,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../websockets/" class="md-nav__link">
+      <a href="../../guides/websockets/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -1017,7 +1089,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../base64/" class="md-nav__link">
+      <a href="../../guides/base64/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -1038,7 +1110,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../testing/" class="md-nav__link">
+      <a href="../../guides/testing/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -1105,7 +1177,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../auth/" class="md-nav__link">
+      <a href="../../guides/auth/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -1126,7 +1198,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../included-middleware/" class="md-nav__link">
+      <a href="../../guides/included-middleware/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -1152,8 +1224,6 @@
                 
   
   
-    
-  
   
   
     
@@ -1163,11 +1233,11 @@
       
     
     
-    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+    <li class="md-nav__item md-nav__item--nested">
       
         
         
-        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3_3" checked>
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3_3" >
         
           
           <label class="md-nav__link" for="__nav_3_3" id="__nav_3_3_label" tabindex="0">
@@ -1181,7 +1251,7 @@
             <span class="md-nav__icon md-icon"></span>
           </label>
         
-        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_3_3_label" aria-expanded="true">
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_3_3_label" aria-expanded="false">
           <label class="md-nav__title" for="__nav_3_3">
             <span class="md-nav__icon md-icon"></span>
             Server setup
@@ -1195,7 +1265,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../proxies/" class="md-nav__link">
+      <a href="../../guides/proxies/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -1213,28 +1283,10 @@
                 
   
   
-    
   
   
-  
-    <li class="md-nav__item md-nav__item--active">
-      
-      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
-      
-      
-      
-        <label class="md-nav__link md-nav__link--active" for="__toc">
-          
-  
-  <span class="md-ellipsis">
-    Systemd run on startup
-  </span>
-  
-
-          <span class="md-nav__icon md-icon"></span>
-        </label>
-      
-      <a href="./" class="md-nav__link md-nav__link--active">
+    <li class="md-nav__item">
+      <a href="../../guides/syste/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -1243,33 +1295,6 @@
   
 
       </a>
-      
-        
-
-<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
-  
-  
-  
-  
-    <label class="md-nav__title" for="__toc">
-      <span class="md-nav__icon md-icon"></span>
-      Table of contents
-    </label>
-    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
-      
-        <li class="md-nav__item">
-  <a href="#writing-the-service-unit-file" class="md-nav__link">
-    <span class="md-ellipsis">
-      Writing the Service Unit File
-    </span>
-  </a>
-  
-</li>
-      
-    </ul>
-  
-</nav>
-      
     </li>
   
 
@@ -1381,9 +1406,36 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#writing-the-service-unit-file" class="md-nav__link">
+  <a href="#1-get-the-template" class="md-nav__link">
     <span class="md-ellipsis">
-      Writing the Service Unit File
+      1. Get the template
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#2-unzip-the-template" class="md-nav__link">
+    <span class="md-ellipsis">
+      2. Unzip the template
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#3-compile-the-code" class="md-nav__link">
+    <span class="md-ellipsis">
+      3. Compile the code
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#4-change-the-code" class="md-nav__link">
+    <span class="md-ellipsis">
+      4. Change the code
     </span>
   </a>
   
@@ -1404,34 +1456,23 @@
                   
 
 
-  <h1>Systemd run on startup</h1>
+  <h1>Simple Api Using Corax Template</h1>
 
-<p>Using Systemd allows you to run any executable or script when the system starts. This can be useful when you don't want to re-run your Crow application every single time you restart your server.<br><br></p>
-<h2 id="writing-the-service-unit-file">Writing the Service Unit File<a class="headerlink" href="#writing-the-service-unit-file" title="Permanent link">&para;</a></h2>
-<p>In order to have Systemd recognize your application, you need to create a <code>.service</code> file that explains how Systemd should handle your program.<br><br></p>
-<p>To create a service file, you need to go to <code>/etc/systemd/system</code> and create an empty text file with the extension <code>.service</code>, the file name can be anything.<br><br></p>
-<p>Once the file is created, open it using your favorite text editor and add the following:</p>
-<div class="highlight"><pre><span></span><code><span class="o">[</span>Unit<span class="o">]</span>
-<span class="nv">Description</span><span class="o">=</span>My<span class="w"> </span>revolutionary<span class="w"> </span>Crow<span class="w"> </span>application
-
-<span class="nv">Wants</span><span class="o">=</span>network.target
-<span class="nv">After</span><span class="o">=</span>syslog.target<span class="w"> </span>network-online.target
-
-<span class="o">[</span>Service<span class="o">]</span>
-<span class="nv">Type</span><span class="o">=</span>simple
-<span class="nv">ExecStart</span><span class="o">=</span>/absolute/path/to/your/executable
-<span class="nv">Restart</span><span class="o">=</span>on-failure
-<span class="nv">RestartSec</span><span class="o">=</span><span class="m">10</span>
-<span class="nv">KillMode</span><span class="o">=</span>process
-
-<span class="o">[</span>Install<span class="o">]</span>
-<span class="nv">WantedBy</span><span class="o">=</span>multi-user.target
+<p>This page shows how you can get started with a simple hello world application using corax template.</p>
+<h2 id="1-get-the-template">1. Get the template<a class="headerlink" href="#1-get-the-template" title="Permanent link">&para;</a></h2>
+<p>First, you need to get the corax template. You can do this by downloading the <a href="https://github.com/seobryn/corax-template">corax template repository</a> as Zip file.</p>
+<h2 id="2-unzip-the-template">2. Unzip the template<a class="headerlink" href="#2-unzip-the-template" title="Permanent link">&para;</a></h2>
+<p>Then, you need to unzip the template and rename the folder with your project name, for example, <code>hello-world</code> in this case.</p>
+<h2 id="3-compile-the-code">3. Compile the code<a class="headerlink" href="#3-compile-the-code" title="Permanent link">&para;</a></h2>
+<div class="highlight"><pre><span></span><code><span class="nb">cd</span><span class="w"> </span>hello-world
+mkdir<span class="w"> </span>build
+<span class="nb">cd</span><span class="w"> </span>scripts<span class="w"> </span><span class="o">&amp;&amp;</span><span class="w"> </span>./make.sh
+./compile.sh
+<span class="nb">cd</span><span class="w"> </span>../release/bin/<span class="w"> </span><span class="o">&amp;&amp;</span><span class="w"> </span>./corax
 </code></pre></div>
-<p>You will then need to give the correct permission, this can be done by using the following command (a <code>sudo</code> maybe required):</p>
-<div class="highlight"><pre><span></span><code>chmod<span class="w"> </span><span class="m">640</span><span class="w"> </span>/etc/systemd/system/crowthing.service
-</code></pre></div>
-<p>And that's it! You can now use your <code>systemctl</code> controls to <code>enable</code>, <code>start</code>, <code>stop</code>, or <code>disable</code> your Crow application.<br><br></p>
-<p>If you're not familiar with Systemd, <code>systemctl enable crowthing.service</code> will allow your Crow application to run at startup, <code>start</code> will start it, and the rest is simple.</p>
+<p>After building your <code>.cpp</code> file and running the resulting executable, you should be able to access your endpoint at <a href="http://localhost:8081">http://localhost:8081</a>. Opening this URL in your browser will show a white screen with "Hello world" typed on it.</p>
+<h2 id="4-change-the-code">4. Change the code<a class="headerlink" href="#4-change-the-code" title="Permanent link">&para;</a></h2>
+<p>You can change the code in the <code>src/main.cpp</code> file to fit your needs.</p>
 
 
 
@@ -1506,9 +1547,9 @@
       
         
         <a
-          href="../proxies/"
+          href="../a_simple_webpage/"
           class="md-footer__link md-footer__link--prev"
-          aria-label="Previous: Proxies"
+          aria-label="Previous: A Simple Webpage"
           rel="prev"
         >
           <div class="md-footer__button md-icon">
@@ -1519,7 +1560,7 @@
               <span class="md-footer__direction">
                 Previous
               </span>
-              Proxies
+              A Simple Webpage
             </div>
           </div>
         </a>
@@ -1529,9 +1570,9 @@
       
         
         <a
-          href="../../reference/"
+          href="../../guides/app/"
           class="md-footer__link md-footer__link--next"
-          aria-label="Next: API Reference"
+          aria-label="Next: App"
           rel="next"
         >
           <div class="md-footer__title">
@@ -1539,7 +1580,7 @@
               <span class="md-footer__direction">
                 Next
               </span>
-              API Reference
+              App
             </div>
           </div>
           <div class="md-footer__button md-icon">
